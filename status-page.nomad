@@ -3,7 +3,7 @@ job "status-page" {
   type = "service"
 
   group "status-page" {
-    count = 1
+    count = 3
     network {
       port "http" {
         to = 3000
